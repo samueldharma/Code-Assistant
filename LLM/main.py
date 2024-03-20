@@ -1,6 +1,7 @@
 from openai import OpenAI
 
-client = OpenAI(api_key="")
+#add api key
+client = OpenAI()
 
 # Optimized prompt
 prompt = "Your task is to preprocess a user query for the custom Coding Assistant. Focus on ensuring clarity, relevance, and programming-related topics. Remove noise, clarify ambiguous terms, and identify key concepts. Optimize the user query for effective assistance. Only output the preprocessed user query."
