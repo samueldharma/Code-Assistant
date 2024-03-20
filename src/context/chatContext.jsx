@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types';
-import { createContext } from 'react';
-import useMessageCollection from '../hooks/useMessageCollection';
+import PropTypes from "prop-types";
+import { createContext } from "react";
+import useMessageCollection from "../hooks/useMessageCollection";
 
 /**
  * ChatContext is a context object that is used to share collection of messages
@@ -16,17 +16,17 @@ const ChatContext = createContext({});
  * @returns {JSX.Element} A ChatContext.Provider element.
  */
 const ChatContextProvider = (props) => {
-  const { messages, addMessage, clearChat } = useMessageCollection();
+	const { messages, addMessage, clearChat, newChat } = useMessageCollection();
 
-  return (
-    <ChatContext.Provider value={[messages, addMessage, clearChat]}>
-      {props.children}
-    </ChatContext.Provider>
-  );
+	return (
+		<ChatContext.Provider value={[messages, addMessage, clearChat, newChat]}>
+			{props.children}
+		</ChatContext.Provider>
+	);
 };
 
 export { ChatContext, ChatContextProvider };
 
 ChatContextProvider.propTypes = {
-  children: PropTypes.node.isRequired,
+	children: PropTypes.node.isRequired,
 };

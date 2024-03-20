@@ -15,6 +15,7 @@ const App = () => {
     }
   }, []);
   return (
+    
     <ChatContextProvider>
       <Modal title='Setting' modalOpen={modalOpen} setModalOpen={setModalOpen}>
         <Setting modalOpen={modalOpen} setModalOpen={setModalOpen} />
