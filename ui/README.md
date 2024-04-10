@@ -68,7 +68,7 @@ npm run dev
 ```
 Your app template should now be running on [localhost:3000](http://localhost:3000/).
 
-## Abis udh clone
+## After cloning, there will be an error "missing secret ..." , do as i mention below
 
 ID: Bikin file baru namanya ".env" di dalam /ui lalu didalam file nya paste text yang gw kirim di grup line
 
