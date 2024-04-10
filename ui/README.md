@@ -45,7 +45,7 @@ Follow the steps outlined in the [quick start guide](https://vercel.com/docs/sto
 
 Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`) in the `.env` file with the appropriate credentials provided during the KV database setup.
 
-## Running locally
+## Running locally (DO NOT FOLLOW THIS, FOLLOW THE STEP AFTER THIS)
 
 You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
 
@@ -60,10 +60,16 @@ pnpm install
 pnpm dev
 ```
 
+## How to run the code, follow the steps below
+```bash
+npm i
+npm i -g vercel
+npm run dev
+```
 Your app template should now be running on [localhost:3000](http://localhost:3000/).
 
 ## Abis udh clone
 
 Bikin file baru namanya ".env" di dalam /ui lalu didalam file nya paste text yang gw kirim di grup line
-
+Create an ".env" file in /ui and paste the text i sent in the line group starting with this "# You must first activate a Billing Account here: https://platform.openai.com/account/billing/overview"
 
