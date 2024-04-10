@@ -70,6 +70,7 @@ Your app template should now be running on [localhost:3000](http://localhost:300
 
 ## Abis udh clone
 
-Bikin file baru namanya ".env" di dalam /ui lalu didalam file nya paste text yang gw kirim di grup line
-Create an ".env" file in /ui and paste the text i sent in the line group starting with this "# You must first activate a Billing Account here: https://platform.openai.com/account/billing/overview"
+ID: Bikin file baru namanya ".env" di dalam /ui lalu didalam file nya paste text yang gw kirim di grup line
+
+ENG: Create an ".env" file in /ui and paste the text i sent in the line group starting with this "# You must first activate a Billing Account here: https://platform.openai.com/account/billing/overview"
 
